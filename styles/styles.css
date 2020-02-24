@@ -242,7 +242,7 @@ body {
     box-sizing: border-box;
 }
 
-.text_block_2+p {
+.text_block_2>p {
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
@@ -314,8 +314,41 @@ body {
     margin-top: 12px;
 }
 
-
 .pic_2 {
     width: 100%;
     max-width: 520px;
+    margin-bottom: 101px;
+}
+
+.page_4 {
+    width: 100%;
+    max-width: 1121px;
+    margin: 101px, auto;
+    padding-right: 135px;
+    padding-left: 144px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.check_box_items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+.check_box_items img {
+    margin-right: 30px;
+}
+
+.check_box_items p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
 }
